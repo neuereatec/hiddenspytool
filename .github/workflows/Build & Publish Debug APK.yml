@@ -1,4 +1,4 @@
-name: Android CI
+name: dash
 on:
   push:
     branches: [ develop ]
@@ -30,7 +30,7 @@ jobs:
     - name: upload artifact to Firebase App Distribution
       uses: wzieba/Firebase-Distribution-Github-Action@v1.2.1
       with:
-        appId: com.neuereatec.dash
-        token: ${{secrets.FIREBASE_TOKEN}}
+        appId: 1:67538413297:android:f71987e1f27fa3362f6b50
+        token: 1//09hhlVUPDDRVPCgYIARAAGAkSNwF-L9IrKGM57pzJAjwFu8KJ2jmk90tTCVoCa7xW_icrlEbFGS51vMzkeWiPxCxzsAvw9YLDe8E
         groups: testers
         file: app/build/outputs/apk/release/app-release.apk
