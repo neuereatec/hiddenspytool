@@ -122,6 +122,8 @@ dependencies {
 
     //deviceName
     implementation 'com.jaredrummler:android-device-names:1.1.9'
+    
+    implementation 'com.google.firebase:firebase-bom:31.1.1'
 
 
 }
@@ -129,3 +131,4 @@ dependencies {
 
 
 apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.android.application'
